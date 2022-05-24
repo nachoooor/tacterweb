@@ -1,0 +1,74 @@
+h1,h2,h3{
+
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+
+body{
+	color: black;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 'regular';
+
+}
+
+a{
+	text-decoration: none
+}
+   
+.btn-yellow{
+
+background-color:#F0AD4E;
+padding: 15px 20px;
+border-radius: 30px;
+color: black;
+font-weight:bold;
+font-family: Poppins
+
+}
+
+.container{
+
+	width:700px;
+	margin:auto;
+}
+
+.banner {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 100%, rgba(0,0,0,0.1) 100%),
+	url(Overlay.png);   
+	color:white;
+	padding:150px 0px;
+	background-size: cover;     	
+	background-position: center;
+	text-align: center
+
+}
+
+
+.cards {
+  display: flex;
+	flex-wrap: wrap;
+}
+.card{
+	flex-basis: 5px;
+	flex-grow: 1;
+	margin: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0.2);
+	border-radius:6px;
+	background-color:#212326;
+}
+.card img {
+  width: 180px;
+  border-radius:6px;
+
+}
+.card h3 {
+flex-grow:1;
+  padding-left: 40px;
+  color:white;
+}
+
